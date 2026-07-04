@@ -1,0 +1,27 @@
+# Sensitive files — never commit these
+cookies.txt
+*cookies*.txt
+
+# Downloaded media
+*.mp4
+*.mp3
+*.webm
+*.mkv
+*.m4a
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+
+*.exe
+build/
+dist/
+*.spec
+
+# OS-generated files
+.DS_Store
+Thumbs.db
