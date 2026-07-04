@@ -128,9 +128,9 @@ YouTube rotates account cookies as a security measure — cookies pulled from an
 
 > Don't want to set up Python? Skip the installation steps above and
 
-> [download the prebuilt standalone `.exe`] from releases folder instead — just
+> [download the prebuilt standalone `.exe`] from [here...](https://github.com/CryptoskinR/YTDownloader/releases/download/v1.0.0/YTDownloader-standalone.exe)
 
-> keep in mind FFmpeg and Deno are still required separately (see step 2 and 3 above).
+> Just keep in mind FFmpeg and Deno are still required separately (see step 2 and 3 above).
 
 > Windows only for now.
 
