@@ -15,7 +15,7 @@
 ![yt-dlp](https://img.shields.io/badge/yt--dlp-required-00FF41?style=flat-square\&labelColor=0D0D0D)
 ![FFmpeg](https://img.shields.io/badge/ffmpeg-required-00FF41?style=flat-square\&labelColor=0D0D0D)
 ![Deno](https://img.shields.io/badge/deno-required-00FF41?style=flat-square\&labelColor=0D0D0D)
-![License](https://img.shields.io/badge/license-personal--use-00FF41?style=flat-square\&labelColor=0D0D0D)
+![License](https://img.shields.io/badge/license-MIT-00FF41?style=flat-square&labelColor=0D0D0D)
 
 </div>
 
@@ -111,11 +111,11 @@ YouTube occasionally flags automated requests and demands login verification. Wh
 
 ### >> Correctly exporting `cookies.txt`
 
-YouTube rotates account cookies as a security measure — cookies pulled from an already-open, regular browser tab may be dead on arrival. Follow this sequence exactly:
+YouTube rotates account cookies as a security measure -- cookies pulled from an already-open, regular browser tab may be dead on arrival. Follow this sequence exactly:
 
 ```
 [1] Open a new Browsing window with an unofficial or a second Google account
-[2] Open the video you want to download from YT
+[2] Open the video you want to download from youtube
 [3] Watch the Ads to make a temporary token
 [4] Export the youtube.com cookies using an extension
     (e.g. "Get cookies.txt LOCALLY")
@@ -124,7 +124,7 @@ YouTube rotates account cookies as a security measure — cookies pulled from an
 
 
 
-### >>>> OR Quick start:
+## > OR Quick start:
 
 > Don't want to set up Python? Skip the installation steps above and
 
@@ -154,13 +154,13 @@ for how it is used.
 
 ---
 
-> \*\*Note:\*\* Use a secondary/throwaway Google account for this process rather than your main account. Exporting and reusing session cookies carries a small risk of the account being flagged or temporarily restricted by YouTube.
+> **Note:** Use a secondary/throwaway Google account for this process rather than your main account. Exporting and reusing session cookies carries a small risk of the account being flagged or temporarily restricted by YouTube.
 
 ---
 
 <div align="center">
 
-*This tool is intended for content you own or have explicit permission to download. Copyright laws and YouTube's Terms of Service vary by jurisdiction — use responsibly.*
+*This tool is intended for content you own or have explicit permission to download. Copyright laws and YouTube's Terms of Service vary by jurisdiction -- **use responsibly**.*
 
 </div>
 
