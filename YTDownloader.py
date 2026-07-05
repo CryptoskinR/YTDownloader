@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-YouTube Downloader with MP3 / MP4 format and quality selection
+YTDownloader with MP3 / MP4 format and quality selection
 Requires: yt-dlp and ffmpeg
 """
 
@@ -124,7 +124,7 @@ def progress_hook(d):
 
 
 def main():
-    print("=== YouTube Downloader ===\n")
+    print("=== YTDownloader ===\n")
     url = input("Enter the YouTube video URL: ").strip()
     if not url:
         print("No URL entered. Exiting.")
@@ -207,4 +207,21 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    while True:
+        main()
+        print("\nDo you want to download another link?")
+        print("  1) Yes")
+        print("  2) No")
+        again_choice = input("Choice (1 or 2): ").strip()
+        if again_choice == "1":
+            print("\n" + "-" * 50 + "\n")
+            continue
+        else:
+            print("\nThank you for using YTDownloader!")
+            print("Press any key to exit...")
+            try:
+                import msvcrt
+                msvcrt.getch()
+            except ImportError:
+                input()
+            break

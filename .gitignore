@@ -20,7 +20,9 @@ env/
 *.exe
 build/
 dist/
+VER/
 *.spec
+*.ico
 
 # OS-generated files
 .DS_Store
