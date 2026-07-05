@@ -134,6 +134,11 @@ YouTube rotates account cookies as a security measure -- cookies pulled from an 
 
 > Windows only for now.
 
+> **⚠️Windows SmartScreen may flag this file since it's unsigned and newly published⚠️**
+
+> Click "More info" → "Run anyway" to proceed.
+> This is expected for new open-source executables and does not indicate malware.
+
 
 
 ## > DISCLAIMER
