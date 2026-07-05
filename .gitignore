@@ -17,13 +17,12 @@ __pycache__/
 venv/
 env/
 
+# OS-generated files
+.DS_Store
+Thumbs.db
 *.exe
 build/
 dist/
 VER/
 *.spec
 *.ico
-
-# OS-generated files
-.DS_Store
-Thumbs.db
