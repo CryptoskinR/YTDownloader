@@ -169,3 +169,23 @@ for how it is used.
 
 </div>
 
+---
+
+<table align="center">
+<tr>
+<td>
+ 
+```
+[ FOLLOW THE WHITE RABBIT. ]
+```
+
+</td>
+</tr>
+</table>
+
+<div align="center">
+ 
+**License:** MIT — see [`LICENSE`](./LICENSE)
+
+</div>
+
